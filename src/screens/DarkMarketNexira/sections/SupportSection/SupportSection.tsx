@@ -20,10 +20,10 @@ const supportLinks = [
 ];
 
 const socialIcons = [
-  { src: "/twitter-alt-circle-1-3.svg", alt: "Twitter alt circle" },
-  { src: "/twitter-alt-circle-1-1.svg", alt: "Twitter alt circle" },
-  { src: "/twitter-alt-circle-1.svg", alt: "Twitter alt circle" },
-  { src: "/twitter-alt-circle-1-2.svg", alt: "Twitter alt circle" },
+  { src: "./twitter-alt-circle-1-3.svg", alt: "Twitter alt circle" },
+  { src: "./twitter-alt-circle-1-1.svg", alt: "Twitter alt circle" },
+  { src: "./twitter-alt-circle-1.svg", alt: "Twitter alt circle" },
+  { src: "./twitter-alt-circle-1-2.svg", alt: "Twitter alt circle" },
 ];
 
 export const SupportSection = (): JSX.Element => {
@@ -81,12 +81,12 @@ export const SupportSection = (): JSX.Element => {
               <img
                 className="w-[184px] h-[54px]"
                 alt="App Store"
-                src="/image-455.png"
+                src="./image-455.png"
               />
               <img
                 className="w-[183px] h-[54px]"
                 alt="Google Play"
-                src="/image-456.png"
+                src="./image-456.png"
               />
             </div>
           </div>
@@ -103,12 +103,12 @@ export const SupportSection = (): JSX.Element => {
                 <img
                   className="absolute w-[330px] h-[54px] top-0 left-0"
                   alt="Rectangle"
-                  src="/rectangle-318-2.svg"
+                  src="./rectangle-318-2.svg"
                 />
                 <img
                   className="w-[331px] h-[54px] top-0 absolute left-0"
                   alt="Union"
-                  src="/union-3.svg"
+                  src="./union-3.svg"
                 />
                 <Input
                   className="absolute inset-0 bg-transparent border-0 font-['Rajdhani',Helvetica] font-medium text-lg tracking-[-0.36px] text-[#d7def9] pl-6 h-[54px]"
@@ -154,12 +154,12 @@ export const SupportSection = (): JSX.Element => {
             <img
               className="w-[81px] h-7 absolute top-0 left-0"
               alt="Union"
-              src="/union-2.svg"
+              src="./union-2.svg"
             />
             <img
               className="absolute w-2 h-1.5 top-[11px] left-16"
               alt="Frame"
-              src="/frame-93.svg"
+              src="./frame-93.svg"
             />
             <div className="absolute top-[5px] left-[33px] font-['Rajdhani',Helvetica] font-semibold text-white text-sm tracking-[-0.28px]">
               EN
@@ -167,7 +167,7 @@ export const SupportSection = (): JSX.Element => {
             <img
               className="absolute w-4 h-3 top-2 left-[9px]"
               alt="Flag set"
-              src="/flag-set.svg"
+              src="./flag-set.svg"
             />
           </div>
         </div>

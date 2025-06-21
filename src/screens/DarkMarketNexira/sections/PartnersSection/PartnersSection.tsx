@@ -6,7 +6,7 @@ export const PartnersSection = (): JSX.Element => {
   const partners = [
     {
       id: 1,
-      logo: "/property-1-main-version-1.png",
+      logo: "./property-1-main-version-1.png",
       bgPosition: "50% 50%",
       width: "138px",
       height: "68px",
@@ -15,12 +15,12 @@ export const PartnersSection = (): JSX.Element => {
     },
     {
       id: 2,
-      logo1: "/group-1000004249.png",
+      logo1: "./group-1000004249.png",
       logo1Width: "125px",
       logo1Height: "10px",
       logo1Top: "10px",
       logo1Left: "0",
-      logo2: "/group-6526.png",
+      logo2: "./group-6526.png",
       logo2Width: "35px",
       logo2Height: "31px",
       logo2Top: "0",
@@ -32,7 +32,7 @@ export const PartnersSection = (): JSX.Element => {
     },
     {
       id: 3,
-      logo: "/logo-nft-brawler-1.png",
+      logo: "./logo-nft-brawler-1.png",
       bgPosition: "50% 50%",
       width: "141px",
       height: "99px",
@@ -41,7 +41,7 @@ export const PartnersSection = (): JSX.Element => {
     },
     {
       id: 4,
-      logo: "/game-logo-1.png",
+      logo: "./game-logo-1.png",
       bgPosition: "50% 50%",
       width: "152px",
       height: "93px",
@@ -50,7 +50,7 @@ export const PartnersSection = (): JSX.Element => {
     },
     {
       id: 5,
-      logo: "/logo.svg",
+      logo: "./logo.svg",
       width: "127px",
       height: "62px",
       top: "50px",
@@ -58,12 +58,12 @@ export const PartnersSection = (): JSX.Element => {
     },
     {
       id: 6,
-      logo1: "/vector-7.svg",
+      logo1: "./vector-7.svg",
       logo1Width: "129px",
       logo1Height: "25px",
       logo1Top: "13px",
       logo1Left: "55px",
-      logo2: "/group-58.png",
+      logo2: "./group-58.png",
       logo2Width: "34px",
       logo2Height: "24px",
       logo2Top: "12px",
@@ -119,12 +119,12 @@ export const PartnersSection = (): JSX.Element => {
                   <img
                     className="absolute w-[239px] h-[162px] top-0 left-0"
                     alt="Rectangle"
-                    src="/rectangle-318-1.svg"
+                    src="./rectangle-318-1.svg"
                   />
                   <img
                     className="w-60 h-[162px] top-0 absolute left-0"
                     alt="Union"
-                    src="/union-7.svg"
+                    src="./union-7.svg"
                   />
                   {partner.logo && (
                     <div
@@ -179,7 +179,7 @@ export const PartnersSection = (): JSX.Element => {
                           <img
                             className="absolute w-[34px] h-6 top-3 left-1"
                             alt="Group"
-                            src="/group-58.png"
+                            src="./group-58.png"
                           />
                         </div>
                       )}
@@ -201,12 +201,12 @@ export const PartnersSection = (): JSX.Element => {
                   <img
                     className="absolute w-[239px] h-[162px] top-0 left-0"
                     alt="Rectangle"
-                    src="/rectangle-318-1.svg"
+                    src="./rectangle-318-1.svg"
                   />
                   <img
                     className="w-60 h-[162px] top-0 absolute left-0"
                     alt="Union"
-                    src="/union-7.svg"
+                    src="./union-7.svg"
                   />
                   {partner.logo && (
                     <div

@@ -40,7 +40,7 @@ export const JoinFormSection = (): JSX.Element => {
                 <img
                   className="w-[35px] h-[35px] mr-[26px] mt-[5px]"
                   alt={`Feature ${feature.id}`}
-                  src={`/${feature.id}.png`}
+                  src={`./${feature.id}.png`}
                 />
                 <div className="[font-family:'Rajdhani',Helvetica] font-medium text-white text-4xl tracking-[-0.72px] leading-[50px]">
                   {feature.title}

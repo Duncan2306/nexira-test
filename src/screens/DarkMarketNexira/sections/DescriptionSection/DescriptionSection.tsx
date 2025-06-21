@@ -53,7 +53,7 @@ export const DescriptionSection = (): JSX.Element => {
   // Support options data
   const supportOptions = [
     {
-      icon: "/faqs.png",
+      icon: "./faqs.png",
       title: (
         <>
           <span className="text-white tracking-[-0.12px]">
@@ -65,10 +65,10 @@ export const DescriptionSection = (): JSX.Element => {
           <span className="text-white tracking-[-0.12px]">.</span>
         </>
       ),
-      bgImage: "/rectangle-14.svg",
+      bgImage: "./rectangle-14.svg",
     },
     {
-      icon: "/chat.png",
+      icon: "./chat.png",
       title: (
         <>
           <span className="text-[#4eecff] tracking-[-0.12px]">Live chat</span>
@@ -78,10 +78,10 @@ export const DescriptionSection = (): JSX.Element => {
           </span>
         </>
       ),
-      bgImage: "/rectangle-14.svg",
+      bgImage: "./rectangle-14.svg",
     },
     {
-      icon: "/image-405.png",
+      icon: "./image-405.png",
       title: (
         <>
           <span className="text-white tracking-[-0.08px]">Ask our </span>
@@ -94,7 +94,7 @@ export const DescriptionSection = (): JSX.Element => {
           </span>
         </>
       ),
-      bgImage: "/rectangle-15.svg",
+      bgImage: "./rectangle-15.svg",
       isLarge: true,
     },
   ];
@@ -228,22 +228,22 @@ export const DescriptionSection = (): JSX.Element => {
               <img
                 className="absolute w-full h-[880px] top-0 left-0 z-0"
                 alt="Background"
-                src="/rectangle-329.svg"
+                src="./rectangle-329.svg"
               />
               <img
                 className="absolute w-full h-32 top-0 left-0 z-0"
                 alt="Header background"
-                src="/rectangle-334.svg"
+                src="./rectangle-334.svg"
               />
               <img
                 className="absolute w-full h-full top-0 left-0 z-0"
                 alt="Union"
-                src="/union-8.svg"
+                src="./union-8.svg"
               />
               <img
                 className="absolute w-[139px] h-2.5 top-0.5 left-1/2 -translate-x-1/2 z-0"
                 alt="Rectangle"
-                src="/rectangle-333.svg"
+                src="./rectangle-333.svg"
               />
             </div>
 
@@ -294,12 +294,12 @@ export const DescriptionSection = (): JSX.Element => {
                   <img
                     className="absolute w-[282px] h-[399px] top-0 left-1/2 -translate-x-1/2 object-cover"
                     alt="Portal machine light"
-                    src="/portalmachine-light-1.png"
+                    src="./portalmachine-light-1.png"
                   />
                   <img
                     className="absolute w-[362px] h-[362px] top-[39px] left-1/2 -translate-x-1/2 object-cover"
                     alt="Character dancer"
-                    src="/c-dancer-3-1.png"
+                    src="./c-dancer-3-1.png"
                   />
                 </div>
               </div>

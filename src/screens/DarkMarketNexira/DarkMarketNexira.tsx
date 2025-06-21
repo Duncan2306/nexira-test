@@ -18,28 +18,28 @@ export const DarkMarketNexira = (): JSX.Element => {
     {
       title: "Explore",
       description: "Explore Ruby Marketplace & Legendary Items.",
-      iconSrc: "/artboard-78.svg",
-      iconBgSrc: "/rectangle-317-3.svg",
-      unionSrc: "/union.svg",
+      iconSrc: "./artboard-78.svg",
+      iconBgSrc: "./rectangle-317-3.svg",
+      unionSrc: "./union.svg",
     },
     {
       title: "My NFTs",
       description: "Track your NFT items.",
-      iconSrc: "/artboard-78-1.svg",
-      iconBgSrc: "/rectangle-317-3.svg",
-      unionSrc: "/union.svg",
+      iconSrc: "./artboard-78-1.svg",
+      iconBgSrc: "./rectangle-317-3.svg",
+      unionSrc: "./union.svg",
     },
     {
       title: "My Activity",
       description: "Track your trading activities.",
-      iconSrc: "/frame-1000004311.svg",
-      iconBgSrc: "/group-4955.png",
+      iconSrc: "./frame-1000004311.svg",
+      iconBgSrc: "./group-4955.png",
     },
     {
       title: "Statistics",
       description: "Statistics on the entire Ruby Marketplace.",
-      iconSrc: "/artboard-78-2.svg",
-      iconBgSrc: "/group-4955-1.png",
+      iconSrc: "./artboard-78-2.svg",
+      iconBgSrc: "./group-4955-1.png",
     },
   ];
 
@@ -49,7 +49,7 @@ export const DarkMarketNexira = (): JSX.Element => {
         <div className="w-full relative">
           <div className="w-full h-[474px] rotate-180" />
 
-          <img className="w-full h-[655px]" alt="Banner" src="/banner.png" />
+          <img className="w-full h-[655px]" alt="Banner" src="./banner.png" />
 
           <Card className="w-[332px] h-[290px] absolute top-[77px] left-[807px] border-0">
             <CardContent className="p-0">
@@ -111,7 +111,7 @@ export const DarkMarketNexira = (): JSX.Element => {
             <img
               className="w-full h-[802px]"
               alt="Mask group"
-              src="/mask-group-3.png"
+              src="./mask-group-3.png"
             />
           </div>
         </div>
@@ -119,12 +119,12 @@ export const DarkMarketNexira = (): JSX.Element => {
         <div className="w-full relative">
           <DescriptionSection />
           <div className="w-full h-[550px] overflow-hidden opacity-[0.59] relative">
-            <img className="w-full h-[550px]" alt="Background" src="/a.png" />
+            <img className="w-full h-[550px]" alt="Background" src="./a.png" />
           </div>
           <img
             className="absolute w-[65px] h-[140px] right-[65px] bottom-0"
             alt="Support"
-            src="/support.svg"
+            src="./support.svg"
           />
         </div>
 

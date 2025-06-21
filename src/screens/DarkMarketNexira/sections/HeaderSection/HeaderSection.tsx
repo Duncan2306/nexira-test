@@ -32,24 +32,24 @@ export const HeaderSection = (): JSX.Element => {
             <img
               className="absolute w-[15px] h-5 top-0 left-0"
               alt="Vector"
-              src="/vector-8.svg"
+              src="./vector-8.svg"
             />
             <img
               className="absolute w-[9px] h-[9px] top-0 left-[11px]"
               alt="Vector"
-              src="/vector-2.svg"
+              src="./vector-2.svg"
             />
             <img
               className="absolute w-[9px] h-[9px] top-[11px] left-[11px]"
               alt="Vector"
-              src="/vector-3.svg"
+              src="./vector-3.svg"
             />
           </div>
         </div>
         <img
           className="w-[85px] h-[17px] ml-2"
           alt="Nexira Logo"
-          src="/vector-1.svg"
+          src="./vector-1.svg"
         />
       </div>
 
@@ -70,7 +70,7 @@ export const HeaderSection = (): JSX.Element => {
                   <img
                     className="w-[9px] h-1.5"
                     alt="Dropdown"
-                    src="/frame-93.svg"
+                    src="./frame-93.svg"
                   />
                 )}
               </NavigationMenuLink>
@@ -88,13 +88,13 @@ export const HeaderSection = (): JSX.Element => {
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-5.svg"
+                src="./component-5.svg"
               />
               <div className="relative flex-1 grow h-[11px] bg-black-modecore-button-30 border-t [border-top-style:solid] border-[#215dd6]" />
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-6-1.svg"
+                src="./component-6-1.svg"
               />
             </div>
             <div className="relative flex-1 self-stretch w-full grow bg-black-modecore-button-30 border-r [border-right-style:solid] border-l [border-left-style:solid] border-[#215dd6]" />
@@ -102,20 +102,20 @@ export const HeaderSection = (): JSX.Element => {
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-6.svg"
+                src="./component-6.svg"
               />
               <div className="bg-black-modecore-button-30 border-b [border-bottom-style:solid] border-[#215dd6] relative flex-1 grow h-[11px]" />
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-5-1.svg"
+                src="./component-5-1.svg"
               />
             </div>
           </div>
           <img
             className="absolute w-3 h-[18px] top-2 left-[11px]"
             alt="Rectangle"
-            src="/rectangle-132.svg"
+            src="./rectangle-132.svg"
           />
         </div>
 
@@ -126,13 +126,13 @@ export const HeaderSection = (): JSX.Element => {
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-5.svg"
+                src="./component-5.svg"
               />
               <div className="bg-[#1a244b] border-t [border-top-style:solid] border-[#364066] relative flex-1 grow h-[11px]" />
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-6-1.svg"
+                src="./component-6-1.svg"
               />
             </div>
             <div className="relative flex-1 self-stretch w-full grow bg-[#1a244b] border-r [border-right-style:solid] border-l [border-left-style:solid] border-[#364066]" />
@@ -140,13 +140,13 @@ export const HeaderSection = (): JSX.Element => {
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-6.svg"
+                src="./component-6.svg"
               />
               <div className="bg-[#1a244b] border-b [border-bottom-style:solid] border-[#364066] relative flex-1 grow h-[11px]" />
               <img
                 className="relative w-[11px] h-[11px]"
                 alt="Component"
-                src="/component-5-1.svg"
+                src="./component-5-1.svg"
               />
             </div>
           </div>
@@ -154,13 +154,13 @@ export const HeaderSection = (): JSX.Element => {
             <img
               className="w-[18px] h-[18px] object-cover"
               alt="Rectangle"
-              src="/rectangle-319.png"
+              src="./rectangle-319.png"
             />
             <div className="[font-family:'Rajdhani',Helvetica] font-semibold text-black-modetext-title text-sm tracking-[0] leading-[normal]">
               damcu13
             </div>
             <Avatar className="w-[22px] h-[22px]">
-              <AvatarImage src="/avatar.png" alt="User Avatar" />
+              <AvatarImage src="./avatar.png" alt="User Avatar" />
               <AvatarFallback>DC</AvatarFallback>
             </Avatar>
           </div>
